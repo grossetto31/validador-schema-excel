@@ -64,5 +64,3 @@ def test_check_usuario_pode_inserir_um_excel_e_receber_uma_mensagem(driver):
     # Aguardar a mensagem de sucesso
     sleep(5)
     assert "O schema do arquivo Excel está correto!" in driver.page_source
-
-    
