@@ -3,9 +3,9 @@ from datetime import datetime
 from enum import Enum
 
 class CategoriaEnum(str, Enum):
-    categoria1 = "categoria1"
-    categoria2 = "categoria2"
-    categoria3 = "categoria3"
+    categoria1 = "categoria 1"
+    categoria2 = "categoria 2"
+    categoria3 = "categoria 3"
 
 
 class Vendas(BaseModel):

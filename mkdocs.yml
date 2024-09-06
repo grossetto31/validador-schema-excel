@@ -1,0 +1,8 @@
+site_name: "Doc - Validador de Schema Excel"
+
+theme:
+  name: "material"
+
+plugins:
+- search
+- mkdocstrings
